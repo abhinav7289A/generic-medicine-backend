@@ -1,0 +1,39 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# FastAPI / App specific
+uploads/
+tmp/
+temp/
+*.log
+
+# Pytest / Coverage (if you add tests later)
+.pytest_cache/
+.coverage
+htmlcov/
